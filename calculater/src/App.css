@@ -1,0 +1,42 @@
+
+.container{
+  margin:0 auto;
+  margin-top: 50px;
+  width: 250px;
+  font-family: sans-serif;
+}
+
+.keypad{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-auto-rows:minmax(60px,auto);    
+}
+
+input{
+  display: grid;
+  grid-column:span 4 ;
+  height: 62px;
+  width: 243px;
+ 
+  border-radius: 5px;
+}
+
+
+#clear{
+  grid-column:1/3;
+  background-color:rgb(255, 91, 91);
+  
+}
+
+#result{
+  grid-column:3/5;
+  background-color: rgb(102, 219, 255);
+}
+
+button{
+  border-radius: 10%;
+  box-shadow: 6px 6px 13px #fff,
+              6px 6px 13px rgba(0, 0,0,.16);
+  padding: 10px;
+  
+}

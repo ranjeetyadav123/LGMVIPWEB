@@ -1,0 +1,22 @@
+.App {
+
+}
+.RowContainer{
+  background-color: #2c2f35;
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr;
+ gap: 20px;
+  justify-content: center;
+  padding: 30px 30px 0 30px;
+  
+}
+
+
+
+
+
+
+
+
+
+

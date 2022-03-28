@@ -1,0 +1,73 @@
+.container {
+  background-color: lightgreen;
+  box-sizing: border-box;
+}
+label {
+  padding: 12px 12px 12px 0;
+}
+
+.from input {
+  border-radius: 5%;
+  margin: 3px;
+  padding: 5px;
+}
+
+.btn-1 {
+  background-color: blueviolet;
+  height: 50px;
+  width: 100px;
+  margin: 5px;
+}
+.btn-2 {
+  background-color: red;
+  height: 50px;
+  width: 100px;
+  margin: 5px;
+}
+
+.card {
+  position: relative;
+  height: 400px;
+  width: 750px;
+  margin: 0 auto;
+  background: #ececec;
+  border-radius: 4px;
+}
+.card header {
+  position: relative;
+  background: #ed3d34;
+  height: 90px;
+  width: 100%;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  border-bottom: 2px solid rgba(180, 80, 80, 0.5);
+  border-top: 1px solid rgba(221, 108, 108, 0.8);
+}
+.card article h2 {
+  padding: 30px;
+  align-items: left;
+}
+
+.card article img {
+  border: 5px solid #fff;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.25);
+  float: left;
+  margin-right: 30px;
+  width: 190px;
+  height: 250px;
+}
+
+.card article h2 {
+  color: #515355;
+  float: left;
+  margin: 0 5px 15px 0;
+  font-weight: normal;
+  padding: 0 0 8px 0;
+  width: 450px;
+}
+.card article .area h2 p {
+  margin: 20px 0 0 0;
+  font-size: 16px;
+  color: #94957f;
+  text-shadow: 0 0 1px rgba(0, 0, 0, 0.3);
+}
